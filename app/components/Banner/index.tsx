@@ -1,8 +1,6 @@
 "use client"
 import Image from 'next/image';
 import React, { useState } from "react";
-import SimpleSlider from './carousel';
-import Carousel from './carousel';
 
 // IMAGES DATA FOR CAROUSEL
 interface Data {
@@ -105,7 +103,7 @@ const Banner = () => {
                     </div>
 
                     <div className='col-span-5 flex justify-center xl:-mb-32 xl:-mr-32 pt-10 lg:pt-0'>
-                        <Carousel images={data1}></Carousel>
+                        Test
                     </div>
                 </div>
             </div>
